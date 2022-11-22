@@ -1,3 +1,5 @@
+![Logo](./img/Logo_Dentistimo.png "Dentistimo logo")
+
 # T6 Project
 
 
