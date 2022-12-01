@@ -82,7 +82,7 @@
 -   Booking requests and responses are to be handled through MQTT.# Software  Architecture  Document  (SAD):  
 ## Publish and subscribe style  
 Given the size of messages, the system will implement a publish and subscribe architecture as a means of communication between components. In order to achieve this, our team will make use of the Message Queuing Telemetry Transport, also known as "MQTT". 
-![publish subscribe diagram](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/t6-project/-/blob/main/img/PubSubDiagram.png)
+![publish subscribe diagram](./img/PubSubDiagram.png "diagram")
     
 ## Pipeline style  
 In order to safeguard  the application from users accidentally/purposely making identical booking requests, the system will implement the pipeline style between the User Client component and the Time Booking component.  
@@ -96,7 +96,7 @@ In order to safeguard  the application from users accidentally/purposely making 
 
 ## Conceptual design and techonologies used to implement the different functionalities
 The following diagram depicts the conceptual design of the system, showcasing a clear separation of functionalities within the components.
-![Functional decomposition diagram](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/t6-project/-/blob/main/img/FDD.png)
+![Functional decomposition diagram](./img/FDD.png "Functional decomposition diagram")
 
 ### In order to implement the aforementioned functionalities, we will make use of the following frameworks and resources: 
 ●  UI User client:  Vue.js 2, Vue-Mqtt  
@@ -107,7 +107,7 @@ The following diagram depicts the conceptual design of the system, showcasing a 
 openlayers
 
 ### Example use Case:
-![Sequence diagram](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/t6-project/-/blob/main/img/SeqDiagram.png)
+![Sequence diagram](./img/SeqDiagram.png "Sequence diagram")
 ## Architecture decisions and tactics
 ### ASRs:
 - **Availability**: Given the fact that the system shall provide dentist  appointment bookings for all citizens  
@@ -133,7 +133,7 @@ the benefit of allowing reallocation of resources that would otherwise have been
 Considering  the  valuable  work  we  are  conducting  in  the  parallel  course:  DIT348  Software  
 Development  Methodologies,  We  have  decided  to  make  use  of  Scrum,  with  applied  user  
 story practice and incremental delivery. As defined by the following SPEM diagram: 
-![SPEM diagram](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/t6-project/-/blob/main/img/SPEM2.png)
+![SPEM diagram](./img/SPEM2.png "SPEM diagram")
 
 The  process  works  in  the  following  manner:  the  team  will  commence  with  the  product  
 backlog(The  Project  assignment  brief)  given  to  us  by  the  product  owner(Examiner  +  TA),  
