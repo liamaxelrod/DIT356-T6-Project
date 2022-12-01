@@ -82,11 +82,11 @@
 -   Booking requests and responses are to be handled through MQTT.# Software  Architecture  Document  (SAD):  
 ## Publish and subscribe style  
 Given the size of messages, the system will implement a publish and subscribe architecture as a means of communication between components. In order to achieve this, our team will make use of the Message Queuing Telemetry Transport, also known as "MQTT". 
-![publish subscribe diagram](./img/PubSubDiagram.png "diagram")
+![publish subscribe diagram](./img/PubSubDiagram.png " publish subscribe diagram")
     
 ## Pipeline style  
 In order to safeguard  the application from users accidentally/purposely making identical booking requests, the system will implement the pipeline style between the User Client component and the Time Booking component.  
-![pipeline diagram](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/t6-project/-/blob/main/img/pipeline.png)
+![pipeline diagram](./img/pipeline.png "pipeline diagram")
 
 ## Layered style  
 ### The layered style has been implemented in the system to perform a separation of concerns: 
