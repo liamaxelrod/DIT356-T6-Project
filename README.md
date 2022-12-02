@@ -31,9 +31,7 @@
     
 	-   pipeline
     
-	-   publish
-    
-	-   subscribe
+	-   publish & subscribe
     
 	-   layered
     
@@ -103,21 +101,19 @@ The following diagram depicts the conceptual design of the system, showcasing a 
 ●  UI Dentist client:  Vue.js 2, Vue-Mqtt  
 ●  User authentication management:  Auth0 / Firebase,  Express, Node.js, Mqtt  
 ●  Time booking management:  Express, Node.js, Mqtt  
-●  Dentists office location map:  Express, Node.js, Mqtt,  Leaflet.js / Google maps API /  
-openlayers
+●  Dentists office location map:  Express, Node.js, Mqtt,  Leaflet.js / Google maps API / openlayers
 
 ### Example use Case:
 ![Sequence diagram](./img/SeqDiagram.png "Sequence diagram")
 ## Architecture decisions and tactics
 ### ASRs:
-- **Availability**: Given the fact that the system shall provide dentist  appointment bookings for all citizens  
-of Gothenburg. 
-- **Simplicity**:  Given the fact that the system will serve a single purpose, simplicity becomes  
-important. This is also reflected in the architectural styles that have been chosen.  
+- **Availability**: Given the fact that the system shall provide dentist  appointment bookings for all citizens of Gothenburg. 
+- **Simplicity**:  Given the fact that the system will serve a single purpose, simplicity becomes important. This is also reflected in the architectural styles that have been chosen.  
 - **Performance**:  Given that this system will be used yearly by more than half a million users, it shall be able to handle thousands of concurrent users. This can be achieved using a "publish and subscribe" architecture as it provides light-weight messaging.
 ### Design decisions regarding components:
 We have chosen to implement four different components to create a modular and well structured system: 
-●  UI (GUI) User client  
+
+●  UI User client  
 ●  UI Dentist client  
 ●  User authentication management  
 ●  Time booking management  
