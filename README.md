@@ -126,7 +126,7 @@
 
 As the scrum master for the whole duration of the project, I conducted the following management work:
 
--   Design of the work methodology detailed in Q1, as well as all improvements to it.
+-   Design of the agile work methodology used throughout the project, as well as all improvements to it.
     
 -   All team management retrospective writing, as well as proofreading of the retrospective work, and the entirety of retrospective 3 and 4.
     
