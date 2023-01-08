@@ -204,7 +204,7 @@ To create a layered architecture, we categorized our components in the following
 The components execute a clear separation of concerns, depicted in the following functional decomposition diagram:
   
 
-
+![FDD](./img/FDD.png "FDD")
   
 
   
@@ -237,7 +237,7 @@ The components execute a clear separation of concerns, depicted in the following
 
   
 
-![Sequence diagram](./img/SeqDiagram.png "Sequence diagram")
+![Sequence diagram](./img/SequenceDiagram.png "Sequence diagram")
 
   
 ## Traceability
