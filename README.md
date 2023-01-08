@@ -648,17 +648,15 @@ This is an example of how traceability was added, which allows anyone to see whe
 
   
 
-- **Availability:** Given the fact that the system shall provide dentist appointment bookings for all citizens of Gothenburg.
+- **Availability:** Given the fact that the system shall provide dentist appointment bookings for all citizens of Gothenburg. This was achieved using circuit breakers in both backend components to minimize downtime.
 
-  
+- **Simplicity:** Given the fact that the system will serve a single purpose, simplicity becomes important. This was achieved using APIs(Leaflet and Full-Calendar) to simplify the use cases for the user client.
 
-- **Simplicity:** Given the fact that the system will serve a single purpose, simplicity becomes important. This is also reflected in the architectural styles that have been chosen.
+- **Performance:** Given that this system will be used yearly by more than half a million users, it shall be able to handle thousands of concurrent users. This was achieved using a "publish and subscribe" architecture as it provides light-weight messaging with MQTT.
 
-- **Performance:** Given that this system will be used yearly by more than half a million users, it shall be able to handle thousands of concurrent users. This can be achieved using a "publish and subscribe" architecture as it provides light-weight messaging.
+- **Usability:** Given that the end goal is the release of a product for a large number of users with vastly different levels of technological literacy. This was achieved with extensive rounds of peer testing to ensure the user client was intuitive.
 
-- **Usability:** Given that the end goal is the release of a product for a large number of users with vastly different levels of technological literacy.
-
-- **Reliability:** Given that the system will be under constant stress of large numbers of concurrent users, system is expected to work despite the possibility of individual components not working
+- **Reliability:** Given that the system will be under constant stress of large numbers of concurrent users, this was also achieved using circuit breakers in both backend components.
 
   
 
