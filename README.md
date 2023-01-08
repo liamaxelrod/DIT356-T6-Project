@@ -78,69 +78,71 @@
 
   
 
-- User Authentication(developed by felix and wang): https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-authentication
+- User Authentication(developed by Felix and Wang): https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-authentication
+
+# Contributions per member
 
   
 
 # Software Requirement Specification (SRS):
-The following list includes all requirements. User story format, acceptance criteria, id and implementation can be seen by clicking on the link
+The following list includes all requirements, the format of the was decided by the individual component teams. User story format, acceptance criteria, and implementation can be seen by clicking on the link
 User client requirements:
--  [As a user I want to be able to login and register so that I can access the systems functionality.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/6)
--   [As a user I want to be able to reset my password so that I can access the systems functionality even if I forgot my password.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/6)
-- [As a user I want to be able to access my personal information so I can see and change it.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/5)
--   [As a user I want to have a page where I can see more information about the dentist so that I can find out whether it is a fit for me.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/4)
--   [As a user I want to be able to make an appointment directly on the website so that I don’t have to make an appointment via the phone.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/4)
--   [As a user I want the system to show me what appointments are available for that dentist so that i can select the one that works best for me.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/4)
--  [As a user I want to have a page with a map showing me the location of the different dentists so that I can choose the one that is working best for me and make an appointment with them.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/3)
--  [As a user I want to be able to filter the dentists based on the day(s) and time(s) I want to make an appointment so that I can find one at a time where I am available.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/3)
-- [As a user I want to be able to have a page to view my past and upcoming appointments so that I don’t miss any appointments and can keep track of when to schedule the next one.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/2)
--  [ As a user I want to be able to cancel appointments that I made in the system so that someone else can use that slot.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/2)
-- [As a user I want to be able to have a home page so that I can access all the features of the system.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/1)
+- 1  [As a user I want to be able to login and register so that I can access the systems functionality.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/6)
+- 2  [As a user I want to be able to reset my password so that I can access the systems functionality even if I forgot my password.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/6)
+- 3 [As a user I want to be able to access my personal information so I can see and change it.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/5)
+-  4 [As a user I want to have a page where I can see more information about the dentist so that I can find out whether it is a fit for me.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/4)
+-  5 [As a user I want to be able to make an appointment directly on the website so that I don’t have to make an appointment via the phone.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/4)
+- 6  [As a user I want the system to show me what appointments are available for that dentist so that i can select the one that works best for me.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/4)
+- 7 [As a user I want to have a page with a map showing me the location of the different dentists so that I can choose the one that is working best for me and make an appointment with them.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/3)
+- 8 [As a user I want to be able to filter the dentists based on the day(s) and time(s) I want to make an appointment so that I can find one at a time where I am available.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/3)
+- 9 [As a user I want to be able to have a page to view my past and upcoming appointments so that I don’t miss any appointments and can keep track of when to schedule the next one.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/2)
+- 10 [ As a user I want to be able to cancel appointments that I made in the system so that someone else can use that slot.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/2)
+- 11 [As a user I want to be able to have a home page so that I can access all the features of the system.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues/1)
 
 Dentist client requirements:
-- [Homepage functionality](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/2)
-- [Create and display appointments page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/3)
-- [Create and display a register and login page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/5)
-- [Login page functionality](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/18)
-- [Create and display user profile page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/7)
-- [User profile page functionality](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/8)
-- [Create and display dentist working hours](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/10)
-- [Create calendar display for registered appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/11)
-- [Create notification for cancelled or changed appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/12)
-- [Information on user client appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/13)
-- [Create register page layout](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/15)
-- [Update login page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/16)
-- [Functionality for register page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/17)
-- [Functionality for dentist profile](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/19)
-- [User page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/20)
-- [User token validation in homepage](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/21)
-- [Layout and styling](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/22)
-- [Reset password](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/23)
+- 12 [Homepage functionality](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/2)
+- 13 [Create and display appointments page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/3)
+- 14 [Create and display a register and login page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/5)
+- 13 [Login page functionality](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/18)
+- 14 [Create and display user profile page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/7)
+- 15 [User profile page functionality](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/8)
+- 16 [Create and display dentist working hours](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/10)
+- 17 [Create calendar display for registered appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/11)
+- 18 [Create notification for cancelled or changed appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/12)
+- 19 [Information on user client appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/13)
+- 20 [Create register page layout](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/15)
+- 21 [Update login page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/16)
+- 22 [Functionality for register page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/17)
+- 23 [Functionality for dentist profile](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/19)
+- 24 [User page](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/20)
+- 25 [User token validation in homepage](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/21)
+- 26 [Layout and styling](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/22)
+- 27 [Reset password](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/dentist-client/-/issues/23)
 
 Booking management requirements:
-- [Available appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/1)
-- [Cancel appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/2)
-- [Max bookings](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/4)
-- [Dentist Breaks](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/5)
-- [Database](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/6)
-- [Recieve booking request](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/7)
-- [Publish dentist offices to users](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/10)
-- [Search for an office](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/11)
-- [See all appointments as a dentist](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/12)
-- [Publish all apointments belonging to user](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/16)
-- [Dentist availability](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/18)
-- [See available offices](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/19)
-- [Load balancing](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/13)
+- 28 [Available appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/1)
+- 29 [Cancel appointments](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/2)
+- 30 [Max bookings](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/4)
+- 31 [Dentist Breaks](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/5)
+- 32 [Database](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/6)
+- 33 [Recieve booking request](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/7)
+- 34 [Publish dentist offices to users](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/10)
+- 35 [Search for an office](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/11)
+- 36 [See all appointments as a dentist](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/12)
+- 37 [Publish all apointments belonging to user](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/16)
+- 38 [Dentist availability](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/18)
+- 39 [See available offices](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/19)
+- 40 [Load balancing](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/booking-management/-/issues/13)
 
 User Management requirements:
-- [As a user, I want my information to be securely transmitted because I don’t want anyone to be able to steal it.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/1)
-- [As a user, I want to be able to register an account and log in to the website because I want to be able to book appointments in my name.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/2)
-- [As a user, I want to be able to reset my password because I might forget it.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/3)
-- [As a user, I want bookings to require authentication because I don’t want others to make or cancel appointments in my name.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/4)
-- [As a user, I would like to effectively distinguish whether the operator is a user or non-user of the program, as this will protect the rights of both parties.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/6)
-- [As a user, I would like to have a separate account, as this would guarantee my privacy and independence.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/7)
-- [As a dentist, I would like to have different permissions compared to regular users because I don’t want users to be able to use any of the dentist's exclusive functions.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/8)
-- [Circuit breaker](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/9)
+- 41 [As a user, I want my information to be securely transmitted because I don’t want anyone to be able to steal it.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/1)
+- 42 [As a user, I want to be able to register an account and log in to the website because I want to be able to book appointments in my name.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/2)
+- 43 [As a user, I want to be able to reset my password because I might forget it.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/3)
+- 43 [As a user, I want bookings to require authentication because I don’t want others to make or cancel appointments in my name.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/4)
+- 44 [As a user, I would like to effectively distinguish whether the operator is a user or non-user of the program, as this will protect the rights of both parties.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/6)
+- 45 [As a user, I would like to have a separate account, as this would guarantee my privacy and independence.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/7)
+- 46 [As a dentist, I would like to have different permissions compared to regular users because I don’t want users to be able to use any of the dentist's exclusive functions.](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/8)
+- 47 [Circuit breaker](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-management/-/issues/9)
 # Software Architecture Document (SAD)
   
 
@@ -334,7 +336,7 @@ The process works in the following manner: the team will commence with the produ
 
 ## Management decisions and Products of the second milestone
 
-- Scrum master divided components into smaller teams:
+Scrum master divided components into smaller teams:
 
 - User Client: Juan and Carlotta
 
@@ -346,7 +348,7 @@ The process works in the following manner: the team will commence with the produ
 
   
 
-- Team management decisions:
+Team management decisions:
 
 - Pushed initial versions of readme files for every component
 
@@ -360,7 +362,7 @@ The process works in the following manner: the team will commence with the produ
 
   
 
-- Initial commits for every component:
+Initial commits for every component:
 
 - [User Client](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/commit/5791715cebf3b6fbfbd3f80be9726fdd95647170)
 
@@ -372,7 +374,7 @@ The process works in the following manner: the team will commence with the produ
 
   
 
-- Milestones and issues were created for the initial user stories backlog
+Milestones and issues were created for the initial user stories backlog
 
 - [User Client](https://git.chalmers.se/courses/dit355/dit356-2022/t-6/user-client/-/issues)
 
